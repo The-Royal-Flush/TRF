@@ -507,7 +507,7 @@
         <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contact">
 
-            <h2 class="section__title">Contact Me</h2>
+            <h2 class="section__title">Contact</h2>
             <span class="section__subtitle">Get in touch</span>
 
             <div class="contact__container container grid">
@@ -524,7 +524,7 @@
                         <i class="uil uil-envelope contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Email</h3>
+                            <h3 class="contact__title email"></h3>
                             <span class="contact__subtitle">workfortrf@gmail.com</span>
                         </div>
                     </div>
@@ -532,7 +532,7 @@
                         <i class="uil uil-map-marker contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Location</h3>
+                            <h3 class="contact__title location"></h3>
                             <span class="contact__subtitle">Pune - India</span>
                         </div>
                     </div>
@@ -621,13 +621,31 @@
     strings: ['Web Design', 'Machine Learning','Data Science','Full Stack'],
     typeSpeed:50,
     backSpeed:50,
-    loop:true
+    loop:true,
+    cursorChar: '_'
   });
   var typed1 = new Typed('.contact__title', {
-    strings: ['Text Us'],
-    typeSpeed:50,
-    backSpeed:50,
-    loop:true
+    strings: ['Text'],
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true,
+    showCursor: false,
+  });
+  var typed2 = new Typed('.email', {
+    strings: ['Email'],
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true,
+    showCursor: false,
+  });
+  
+  var typed3 = new Typed('.location', {
+    strings: ['Location'],
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true,
+ 
+    showCursor: false
   });
 
     </script>
