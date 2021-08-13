@@ -744,13 +744,17 @@ ul li a:hover::after {
 .footer__container {
   row-gap: 3.5rem;
 }
+.footer_image{
+  width: 150px;
+}
 .footer__bg {
-  background-color: var(--first-color-second);
+  background-color: var(--first-color);
   padding: 2rem 0 3rem;
 }
 .footer__title {
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
+  
 }
 .footer__subtitle {
   font-size: var(--small-font-size);
@@ -999,7 +1003,7 @@ ul li a:hover::after {
       justify-self: flex-end;
   }
   .footer__copy{
-      margin-top: 4.5rem;
+      margin-top: 2.5rem;
   }
 }
 
