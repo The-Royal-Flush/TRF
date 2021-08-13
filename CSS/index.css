@@ -50,6 +50,9 @@
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
 
+
+  /* image */
+  --bg-img:url("../img/logo.png"); 
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
@@ -79,7 +82,7 @@ body.dark-theme {
   --container-color: hsl(var(--hue-color), 29%, 16%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
-
+  --bg-img:url('../img/logo_white.png');
 }
 
 /*========== Button Dark/Light ==========*/
@@ -176,6 +179,14 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.nav__img{
+  background: var(--bg-img);
+  padding: 5rem 7rem;
+  background-size: 88%;
+  background-repeat: no-repeat;  
+
+
 }
 .display{
   display: none;
@@ -897,9 +908,7 @@ ul li a:hover::after {
     height: calc(var(--header-height)+ 8rem);
     column-gap: 1rem;
   }
-  .nav__img{
-    width: 15%;
-  }
+  
   
   .nav__icon,.nav__close,.nav__toggle {
       display: none;
