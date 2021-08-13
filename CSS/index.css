@@ -710,6 +710,8 @@ ul li a:hover::after {
 .contact__title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
+  
+  
 }
 .contact__subtitle {
   font-size: var(--small-font-size);

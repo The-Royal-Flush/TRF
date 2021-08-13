@@ -512,7 +512,7 @@
                         <i class="uil uil-phone contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Text Us</h3>
+                            <h3 class="contact__title"></h3>
                             <span class="contact__subtitle">999-777-666</span>
                         </div>
                     </div>
@@ -572,7 +572,7 @@
         <div class="footer__bg">
             <div class="footer__container container grid">
                 <div>
-                    <h1 class="footer__title"><img class="footer_image" src="img\logo_white.png" alt="TRF"></h1>
+                    <h1 class="footer__title"><img class="footer_image" src="img\footer_logo.png" alt="TRF"></h1>
                     <!-- <span class="footer__subtitle">Machine Learning</span> -->
                 </div>
 
@@ -606,20 +606,33 @@
             <p class="footer__copy">Made With Love</p>
         </div>
     </footer>
-
+   
     <!--==================== SCROLL TOP ====================-->
     <a href="#" class="scrollup" id="scroll-up">
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
     <!--========================== TYPED JS ===============-->
     <script src="JS/typed.js"></script>
-    <script src="JS/type.js"></script>
+    <script>
+        var typed = new Typed('.type', {
+    strings: ['Web Design', 'Machine Learning','Data Science','Full Stack'],
+    typeSpeed:50,
+    backSpeed:50,
+    loop:true
+  });
+  var typed1 = new Typed('.contact__title', {
+    strings: ['Text Us'],
+    typeSpeed:50,
+    backSpeed:50,
+    loop:true
+  });
+
+    </script>
     
     <!--==================== SWIPER JS ====================-->
-    <script src="JS/type.js"="JS/swiper-bundle.min.js"></script>
+    <script src="JS/swiper-bundle.min.js"></script>
 <!-- jquery -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script  src="JS/function.js"></script>
+
     <!--==================== MAIN JS ====================-->
     <script src="JS/main.js"></script>
 </body>
