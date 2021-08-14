@@ -952,7 +952,7 @@ ul li a:hover::after {
 }
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (min-width: 350px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -1011,7 +1011,7 @@ ul li a:hover::after {
     justify-content: center;
   }
   .team__main{
-    margin-left: 5rem;
+    margin-left: 11rem;
     margin-right: 3rem;
   }
 }
@@ -1136,6 +1136,9 @@ ul li a:hover::after {
   .footer__copy{
       margin-top: 2.5rem;
   }
+  .team__main{
+    margin: 0 10rem;
+  }
 }
 
 /* For large devices */
@@ -1175,5 +1178,8 @@ ul li a:hover::after {
     }
     .footer__social__link{
         margin-right: 1rem;
+    }
+    .team__main{
+      margin: 0 5rem;
     }
 }
