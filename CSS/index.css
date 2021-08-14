@@ -725,8 +725,13 @@ ul li a:hover::after {
 }
 
 
-/*==================== SERVICES ====================*/
-
+/*==================== TEAM ====================*/
+.team__container{
+  display: contents;  
+}
+.team__icon{
+  color: var(--first-color);
+}
 /* Active Modal */
 
 /*==================== PORTFOLIO ====================*/
