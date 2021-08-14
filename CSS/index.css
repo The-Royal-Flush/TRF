@@ -725,7 +725,17 @@ ul li a:hover::after {
 }
 
 
-/*==================== SERVICES ====================*/
+/*==================== TEAM ====================*/
+.team__container{
+  display: contents;
+  margin-left:5rem;  
+}
+.team__icon{
+  color: var(--first-color);
+}
+.team__main{
+  margin: 0 15rem;
+}
 
 /* Active Modal */
 
@@ -848,6 +858,7 @@ ul li a:hover::after {
 }
 .submit__button{
   border: none ;
+  display: block;
 }
 /*==================== FOOTER ====================*/
 .footer {
@@ -968,6 +979,10 @@ ul li a:hover::after {
   .project__img {
     width: 200px;
   }
+  .team__main{
+    margin-left: 5rem;
+    margin-right: 3rem;
+  }
 }
 
 /* For medium devices */
@@ -994,6 +1009,10 @@ ul li a:hover::after {
     display: grid;
     grid-template-columns: 0.6fr;
     justify-content: center;
+  }
+  .team__main{
+    margin-left: 5rem;
+    margin-right: 3rem;
   }
 }
 
