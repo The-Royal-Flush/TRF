@@ -853,6 +853,7 @@ ul li a:hover::after {
 }
 .submit__button{
   border: none ;
+  display: block;
 }
 /*==================== FOOTER ====================*/
 .footer {
