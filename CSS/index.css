@@ -727,7 +727,8 @@ ul li a:hover::after {
 
 /*==================== TEAM ====================*/
 .team__container{
-  display: contents;  
+  display: contents;
+  margin-left:5rem;  
 }
 .team__icon{
   color: var(--first-color);
