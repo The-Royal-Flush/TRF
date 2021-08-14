@@ -17,8 +17,12 @@
     <!--==================== TYPED JS CDN ====================-->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-    
+    <!--==================== JQUERY ====================-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--==================== PAGECLIP ====================-->
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
 
     <!--==================== FAVICON ====================-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -127,23 +131,23 @@
         <section class="about section">
             <h1>Our Works</h1>
             <div class="cards">
-            <div class="card card1">
-                <div class="details">
-                    <h2>ICEM HACKATHON</h2>
-                    <h2 class="cards__h2">Web UI/UX design</h2>
-                   
-                </div>
-                <img class="logo_img" src="img/card_image2.png" alt="">
-            </div>
-            <div class="card card2">
-                <div class="details">
-                    <h2>COLLEGE</h2>
-                    <H2 class="cards__h2">Web Interface Design</H2>
+                <div class="card card1">
+                    <div class="details">
+                        <h2>ICEM HACKATHON</h2>
+                        <h2 class="cards__h2">Web UI/UX design</h2>
 
+                    </div>
+                    <img class="logo_img" src="img/card_image2.png" alt="">
                 </div>
-                <img class="logo_img" src="img/car_image 1.png" alt="">
+                <div class="card card2">
+                    <div class="details">
+                        <h2>COLLEGE</h2>
+                        <H2 class="cards__h2">Web Interface Design</H2>
+
+                    </div>
+                    <img class="logo_img" src="img/car_image 1.png" alt="">
+                </div>
             </div>
-        </div>
             <div class="card card3">
                 <div class="details">
                     <h2>AMAZON</h2>
@@ -477,15 +481,15 @@
                         <i class="uil uil-phone contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title"></h3>
-                            <span class="contact__subtitle">999-777-666</span>
+                            <h3 class="contact__title">Text</h3>
+                            <span class="contact__subtitle">+91 999-777-666</span>
                         </div>
                     </div>
                     <div class="contact__information">
                         <i class="uil uil-envelope contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title email"></h3>
+                            <h3 class="contact__title email">Email</h3>
                             <span class="contact__subtitle">workfortrf@gmail.com</span>
                         </div>
                     </div>
@@ -493,39 +497,48 @@
                         <i class="uil uil-map-marker contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title location"></h3>
+                            <h3 class="contact__title location">Location</h3>
                             <span class="contact__subtitle">Pune - India</span>
                         </div>
                     </div>
                 </div>
 
-                <form action="form.php" method="post" class="contact__form grid">
+                <form action="https://send.pageclip.co/SCALRLKhuBbg9lUx41GXL7qFl7S3OLby/TRF_Contact_Form"
+                    class="pageclip-form contact__form grid" method="post">
+
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
-                            <input type="text" name="Name" class="contact__input">
+                            <input type="text" name="name" class="contact__input">
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" name="Email" class="contact__input">
+                            <input type="email" name="email" class="contact__input">
                         </div>
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Project</label>
-                        <input type="text" name="Project" class="contact__input">
+                        <input type="text" name="project" class="contact__input">
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Message</label>
                         <textarea name="Message" id="" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
-                    <div>
+                    <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+                    <button type="submit" class="pageclip-form__submit button button--flex submit__button">
+                        Send Message
+                        <i class="uil uil-message button__icon"></i>
+                    </button>
+                </form>
 
-                        <button type="submit" class="button button--flex submit__button">
-                            Send Message
-                            <i class="uil uil-message button__icon"></i>
-                        </button>
-                    </div>
+
+
+
+                <div>
+
+
+                </div>
                 </form>
             </div>
         </section>
@@ -568,7 +581,7 @@
 
                 </div>
             </div>
-            <p class="footer__copy">Made With Love</p>
+            <p class="footer__copy">Made With Love </p>
         </div>
     </footer>
 
@@ -585,30 +598,6 @@
             loop: true,
             cursorChar: '_'
         });
-        var typed1 = new Typed('.contact__title', {
-            strings: ['Text'],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true,
-            showCursor: false,
-        });
-        var typed2 = new Typed('.email', {
-            strings: ['Email'],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true,
-            showCursor: false,
-        });
-
-        var typed3 = new Typed('.location', {
-            strings: ['Location'],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true,
-
-            showCursor: false
-        });
-
     </script>
 
     <!--==================== SWIPER JS ====================-->
@@ -625,16 +614,16 @@
 
 
 
-        <script type="text/javascript" src="JS/vanilla-tilt.js"></script>
-<script type="text/javascript">
-	VanillaTilt.init(document.querySelector(".logo_img"), {
-		max: 25,
-		speed: 400
-	});
-	
-	//It also supports NodeList
-	VanillaTilt.init(document.querySelectorAll(".logo_img"));
-</script>
+    <script type="text/javascript" src="JS/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".logo_img"), {
+            max: 25,
+            speed: 400
+        });
+
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".logo_img"));
+    </script>
 
     <script src="JS/timeline.js"></script>
 
@@ -660,6 +649,9 @@
     </script>
 
     <!-- ------------------------------------------------------------------------------------------------------ -->
+
+    <!--==================== PAGECLIP ====================-->
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
 </body>
 
