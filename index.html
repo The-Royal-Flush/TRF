@@ -332,7 +332,7 @@
                 </div>
 
                 <form action="https://send.pageclip.co/SCALRLKhuBbg9lUx41GXL7qFl7S3OLby/TRF_Contact_Form"
-                    class="pageclip-form contact__form grid" method="post">
+                    class="pageclip-form contact__form grid" method="post" id="recaptcha_form">
 
                     <div class="contact__inputs grid">
                         <div class="contact__content">
@@ -354,7 +354,9 @@
                     </div>
 
                     <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-                    <button type="submit" class="pageclip-form__submit button button--flex submit__button">
+                    <button type="submit" data-sitekey="6Le_hf0bAAAAAIWsxajjdTlFSPdm57ccWKdU74yX" 
+                    data-callback='onSubmit' 
+                    data-action='submit' class="g-recaptcha pageclip-form__submit button button--flex submit__button">
                         Send Message
                         <i class="uil uil-message button__icon"></i>
                     </button>
@@ -480,6 +482,15 @@
 
     <!--==================== PAGECLIP ====================-->
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
+    <!--==================== RECAPTCHA ====================-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <script>
+        function onSubmit(token) {
+          document.getElementById("recaptcha_form").submit();
+        }
+      </script>
 
 </body>
 
