@@ -733,6 +733,10 @@ ul li a:hover::after {
 .team__icon{
   color: var(--first-color);
 }
+.team__main{
+  margin: 0 15rem;
+}
+
 /* Active Modal */
 
 /*==================== PORTFOLIO ====================*/
@@ -975,6 +979,10 @@ ul li a:hover::after {
   .project__img {
     width: 200px;
   }
+  .team__main{
+    margin-left: 5rem;
+    margin-right: 3rem;
+  }
 }
 
 /* For medium devices */
@@ -1001,6 +1009,10 @@ ul li a:hover::after {
     display: grid;
     grid-template-columns: 0.6fr;
     justify-content: center;
+  }
+  .team__main{
+    margin-left: 5rem;
+    margin-right: 3rem;
   }
 }
 
