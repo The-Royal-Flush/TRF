@@ -1038,106 +1038,99 @@ span.typed-cursor {
   }
 }
 /* =====================team=========================== */
-
-.team{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.cards{
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+};
+.border{
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.border:hover{
+    border: 1px solid white;
+  }
+.card{
+  height: 379px;
+  width: 300px;
+  background: grey;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: black;;
+  box-shadow: 0 70px 63px -60px #000000;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height :100vh;
-
-}
-.card-team{
   position: relative;
-  width: 600px;
-  height: 350px;
-  margin: 20px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  border-radius: 20px;
-  /* background: linear-gradient(135deg,#d41e31,#491f8f); */
-
 }
-.card-team img{
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 300px;
-  transition: 0.5s;
-
+.card0{
+  background: url('../img/anmol.jpg') center center no-repeat;
+  background-size: 300px;
 }
-
-.card-team:hover img{
-    left: 90%;
-    height: 400px;
-
+  .card0:hover{
+    background: url('../img/anmol.jpg') left center no-repeat;
+    background-size: 600px;
+  }
+    .card0 h2{
+      opacity: 1;
+    }
+    .card0.fa{
+      opacity: 1;
+    }
+.card1{
+  background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') center center no-repeat;
+  background-size: 300px;
 }
-.card-team .content-team{
-  position: relative;
-  width: 50%;
-  left: 20%;
-  padding: 20px 20px 20px 40px;
+  .card1:hover{
+    background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') left center no-repeat;
+    background-size: 600px;
+  }
+   .card1 h2{
+      opacity: 1;
+    }
+    .card1 .fa{
+      opacity: 1;
+    }
+.card2{
+  background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') center center no-repeat;
+  background-size: 300px;
+}
+  .card2:hover{
+    background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') left center no-repeat;
+    background-size: 600px;
+  }
+   .card2 h2{
+      opacity: 1;
+    }
+    .card2 .fa{
+      opacity: 1;
+    }
+
+.card2 .fa{
   opacity: 0;
-  transition: 0.5s;
-
+  transition: opacity 1s;
 }
-.card-team:hover .content-team{
-  left: 0;
-  opacity: 1;
-  visibility: visible;
-
-}
-.card-team .content-team h2{
-  color: black;
-  text-transform: uppercase;
-  font-size: 2,5em;
-  line-height: 1em;
-}
-.card-team .content-team p{
-  color: black;
-}
-
-.card-team .content-team a{
-  position: relative;
-  display: inline-block;
-  color:#fff;
-  padding: 10px 20px;
-  border-radius: 10px;
-background-color:var(--first-color) ;
-  margin-top: 10px;
-  text-decoration: none;
-}
-.wid-team{
-  width: 50%;
-}
-@media (max-width:800px){
-  .card-team{
-    position: relative;
-    width: auto;
-    max-width: 600px;
-    align-items: flex-start;
-
-  }
-  .card-team:hover:{
-    height: 600px;
-
-  }
-  .card-team:hover img{
-    left: 80%;
-    height: 350px;
-
-  }
-  .card-team .content-team{
-    width: 100%;
-    left: 0;
-    padding: 40px;
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.5s;
-
-  }
+.icons{
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
