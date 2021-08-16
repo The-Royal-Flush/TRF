@@ -4,69 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Anmol Bajpai,Portfolio,Anmol Bajpai Portfolio,Anmol,Anmol Portfolio">
+    <meta name="google-site-verification" content="8JhqvDpADPSS_MOQjnoET1swFvW-BAuAcsAWg-gCK2w" />
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-
-    <!--==================== SWIPER BUNDLE MIN CSS ====================-->
+    <!--====================== TYPED JS ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!--==================== SWIPER CSS ====================-->
     <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
-    <!-- ============================tailwind=============================== -->
-    <link href="https://unpkg.com/tailwindcss@%5E1.0/dist/tailwind.min.css" rel="stylesheet">
+
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="CSS/index.css">
 
-    <!--==================== TYPED JS CDN ====================-->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-    <!--==================== JQUERY ====================-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!--==================== PAGECLIP ====================-->
-    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
-
-
-    <!--==================== FAVICON ====================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="favicon_io/site.webmanifest">
-
-
-    <title>The Royal Flush</title>
+    <title>Anmol Portfolio</title>
 </head>
 
 <body>
-    <!-- ------------------------------------------------------------------------------------------------------ -->
-    <div class="spinner-wrapper">
-        <div class="spinner"></div>
-    </div>
-    <!-- ------------------------------------------------------------------------------------------------------ -->
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <div class="nav__img"></div>
-            <!-- <img src="img/logo_white.png" alt="" class="nav__img2"> -->
+            <a href="#" class="nav__logo">The Royal Flush</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
                         <a href="#home" class="nav__link active-link">
-                            <i class="uil uil-estate nav__icon"></i> <span class="menu__item-name"> Home</span>
+                            <i class="uil uil-estate nav__icon"></i>
+                            <span class="menu__item-name"> Home</span>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#about" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> Team
+                            <i class="uil uil-user nav__icon"></i> About
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
-                            <i class="uil uil-file-alt nav__icon"></i>Projects
+                            <i class="uil uil-file-alt nav__icon"></i>Skills
                         </a>
                     </li>
-
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i> Contact
+                            <i class="uil uil-message nav__icon"></i> Contactme
                         </a>
                     </li>
                 </ul>
@@ -87,7 +71,7 @@
     <!--==================== MAIN ====================-->
     <main class="main">
         <!--==================== HOME ====================-->
-        <section data-aos="fade-up" class="home section" id="home">
+        <section class="home section" id="home">
             <div class="home__container container grid">
                 <div class="home__content grid">
                     <div class="home__social">
@@ -98,7 +82,7 @@
                         <a href="https://anmolbajpai2001.medium.com/" target="_blank" class="home__social-icon">
                             <i class="uil uil-medium-m"></i>
                         </a>
-                        <a href="https://github.com/The-Royal-Flush" target="_blank" class="home__social-icon">
+                        <a href="https://github.com/alfaPegasis" target="_blank" class="home__social-icon">
                             <i class="uil uil-github-alt"></i>
                         </a>
                     </div>
@@ -107,18 +91,20 @@
                     </div>
 
                     <div class="home__data">
-                        <h2 class="type"></h2>
-                        <h1 class="home__title"> <span class="home__title__span">Hi, We are the</span> <span
-                                class="home__title--span1"> Royal Flush </span></h1>
-                        <!-- <h3 class="home__subtitle">A Student</h3> -->
-                        <p class="home__description">Come create, learn and grow with us</p>
-                        <a href="#contact" class=" home__button button button--flex ">
-                            Get Started <i class="uil uil-message button__icon"></i>
+                        <h2 class="">
+                            <span class="type"></span>
+                            <span class="typed-cursor">_</span>
+                        </h2>
+                        <h1 class=""> <span class="home__title"> Hi, We are the </span><span class="home__title"> Royal Flush</span></h1>
+                        <h3 class="home__subtitle">Come create, learn and grow with us</h3>
+
+                        <a href="#contact" class="button button--flex">
+                            Get started <i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
                 </div>
                 <div class="home__scroll">
-                    <a href="#about" class="home__scroll-button button--flex">
+                    <a href="#qualification" class="home__scroll-button button--flex">
                         <i class="uil uil-mouse-alt home__scroll-mouse"></i>
                         <span class="home__scroll-name">Scroll down</span>
                         <i class="uil uil-arrow-down home__scroll-arow"></i>
@@ -128,94 +114,143 @@
         </section>
 
         <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about2.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        I draw insights from data, working as a Machine Learning, a Data Science enthusiast and UI/UX
+                        designer exploring, learning and unlearning things.
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">01+</span>
+                            <span class="about__info-name">Years <br>experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">02+</span>
+                            <span class="about__info-name">Published <br>articles</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name">Completed <br>projects</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/Anmol-Resume.pdf" class="button button--flex">
+                            Download CV<i class="uil uil-download-alt button__icon"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
         <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+            <div class="skills__container container grid">
+                <div>
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-atom skills__icon"></i>
 
-        <!--==================== QUALIFICATION ====================-->
-        <section class="qualification section">
-            <h2 class="section__title">Timeline</h2>
-            <span class="section__subtitle">Our Journey</span>
-
-<!--             <div class="qualification__container container">
-                <div class="qualification__tabs">
-                    <div class="qualification__button button--flex">
-                        <i class="uil uil-graduation-cap qualification__icon"></i>
-                        Education
-                    </div> -->
-                </div>
-                <div class="qualification__sections">
-                    <div class="qualification__content">
-                        <div class="qualification__data">
                             <div>
-                                <h3 class="qualification__title">Top 11% in Amazon ML Challenge</h3>
-                                <span class="qualification__subtitle">We ranked amog top 11% in the Amazon Machine Learning Challenge conducted by Hackerearth</span>
-                                <div class="qualification__calender">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2 Aug 2021
-                                </div>
+                                <h1 class="skills__title">Machine Learning</h1>
+                                <span class="skills_subtitle">More than 3 months</span>
                             </div>
-                            <div>
-                                <span class="qualification__rounder"></span>
-
-                                <span class="qualification__line"></span>
-
-                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
 
-
-                        <div class="qualification__data">
-                            <div></div>
-                            <div>
-
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-
-                            </div>
-
-                            <div>
-                                <h3 class="qualification__title">Won ICEM Hackathon</h3>
-                                <span class="qualification__subtitle">Ranked 1st, Track 2 of the Hackathon conducted in college.</span>
-                                <div class="qualification__calender">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    31 May 2021
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Regression</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__regression"></span>
                                 </div>
                             </div>
 
-                        </div>
-
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Reminiscence of The Royal Flush</h3>
-                                <span class="qualification__subtitle">We added a member to our group of 3 and renamed our team as the Royal Flush</span>
-                                <div class="qualification__calender">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    23 Oct 2020
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Classification</h3>
+                                    <span class="skills__number">20%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__classification"></span>
                                 </div>
                             </div>
 
-                            <div>
-                                <span class="qualification__rounder"></span>
-
-                                <span class="qualification__line"></span>
-                                <!-- <span class="qualification__rounder"></span> -->
-
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Reinforcement Learning</h3>
+                                    <span class="skills__number">20%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__supervised"></span>
+                                </div>
                             </div>
+
+
                         </div>
 
-                        <div class="qualification__data">
-                            <div></div>
+                    </div>
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-presentation-line skills__icon"></i>
+
                             <div>
+                                <h1 class="skills__title">Data Science</h1>
+                                <span class="skills_subtitle">More than 4 months</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
 
-                                <span class="qualification__rounder"></span>
-
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Data Extraction</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__numpy"></span>
+                                </div>
                             </div>
 
-                            <div>
-                                <h3 class="qualification__title">Previously The Zodiac</h3>
-                                <span class="qualification__subtitle">3 people with commom interests met and formed a team to learn and grow together.</span>
-                                <div class="qualification__calender">
-                                    <i class="uil uil-calendar-alt"></i>
-                                     10 Sept 2020
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Data Cleaning</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__pandas"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Data Wrangling</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__matplotlib"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Data Analysis</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__seaborn"></span>
                                 </div>
                             </div>
 
@@ -223,8 +258,189 @@
 
                     </div>
                 </div>
+
+                <div>
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-sitemap skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Design</h1>
+                                <span class="skills_subtitle">More than 1 month</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__figma"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Sketch</h3>
+                                    <span class="skills__number">10%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sketch"></span>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-rupee-sign skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Finance</h1>
+                                <span class="skills_subtitle">More than 4 months</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Stock Market Basics</h3>
+                                    <span class="skills__number">100%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__stock"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Technical Analysis</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__techany"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Fundamental Analysis</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__funany"></span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Risk Management</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__riskman"></span>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Timeline</h2>
+            <span class="section__subtitle">Our Journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                </div>
+                <div class="qualification__sections">
+                    <div class="qualification__content">
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Top 11% in Amazon ML Challenge</h3>
+                                <span class="qualification__subtitle">We ranked amog top 11% in the Amazon Machine
+                                    Learning Challenge conducted by Hackerearth</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2 Aug 2021
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Won ICEM Hackathon</h3>
+                                <span class="qualification__subtitle">Ranked 1st, Track 2 of the Hackathon conducted in
+                                    college.</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    31 May 2021
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Reminiscence of The Royal Flush</h3>
+                                <span class="qualification__subtitle">We added a member to our group of 3 and renamed
+                                    our team as the Royal Flush</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    23 Oct 2020
+                                </div>
+                            </div>
+                            <div>
+
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+
+                            </div>
+                        </div>
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Previously The Zodiac</h3>
+                                <span class="qualification__subtitle">3 people with commom interests met and formed a
+                                    team to learn and grow together.</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    10 Sept 2020
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
 
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
@@ -239,7 +455,8 @@
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">COLLEGE</h3>
                             <h4>Web Interface Design</h4>
-                            <p class="portfolio__description">An Interface design for the Department that focusses on peer to peer interaction and enhances productivity</p>
+                            <p class="portfolio__description">An Interface design for the Department that focusses on
+                                peer to peer interaction and enhances productivity</p>
                             <a href="https://colab.research.google.com/drive/12Ec7956pevXTFwMaT40VDZHtrT2ym0nH?usp=sharing"
                                 target="_blank" class="button button--flex button--small portfolio__button">
                                 View
@@ -256,9 +473,9 @@
                             <h4>Machine Learning</h4>
 
 
-                            <p class="portfolio__description">Trained and predicted a model using Classifiction and NLP algorithms to a dataset provided by Amazon.</p>
+                            <p class="portfolio__description">Trained and predicted a model using Classifiction and NLP
+                                algorithms to a dataset provided by Amazon.</p>
                             <a href="https://github.com/alfaPegasis/Hand-Tracking-Model" target="_blank"
-
                                 class="button button--flex button--small portfolio__button">
                                 View
                                 <i class="uil uil-arrow-right button__icon"></i>
@@ -275,9 +492,9 @@
 
 
 
-                            <p class="portfolio__description">Designed a UI that connects farmers directly with the consumers with effective enhancements and simplistic features.</p>
+                            <p class="portfolio__description">Designed a UI that connects farmers directly with the
+                                consumers with effective enhancements and simplistic features.</p>
                             <a href="https://github.com/alfaPegasis/Holistic-Body-Pose-Detection" target="_blank"
-
                                 class="button button--flex button--small portfolio__button">
                                 View
                                 <i class="uil uil-arrow-right button__icon"></i>
@@ -299,102 +516,27 @@
             </div>
         </section>
 
-        <!-- ====================Team==========================  -->
-        <section class="text-gray-600 body-font mt-20" >
-            <div class="container px-5 py-24 mx-auto team__container">
-              <div class="flex flex-col text-center w-full mb-20">
-                <h1 class="text-2xl font-bold title-font mb-4 text-gray-900 " style="font-size: var(--h1-font-size);">Team</h1>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
-              </div>
-              <div class="flex flex-wrap -m-4 team__main">
-                <div class="p-4 lg:w-1/2">
-                  <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="img\prantosh.png">
-                    <div class="flex-grow sm:pl-8">
-                      <h2 class="title-font font-medium text-lg text-gray-900">Prantosh Verma</h2>
-                      <h3 class="text-gray-500 mb-3">The Ace Of Clubs</h3>
-                      <p class="mb-4">####.</p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500 team__icon" href="https://www.linkedin.com/in/prantosh-verma-654873175/" target="__blank">
-                            <i class="uil uil-linkedin-alt"></i>
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project</h2>
+                        <p class="project__description">Contact me now and get a 30% discount on your new project.</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact Me
+                            <i class="uil uil-message project__icon button__icon"></i>
                         </a>
-                        <a class="ml-2 text-gray-500 team__icon" href="https://github.com/leo1104" target="__blank">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-                        <a class="ml-2 text-gray-500 team__icon" href="https://www.instagram.com/lightening_shadow/" target="__blank">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-                      </span>
                     </div>
-                  </div>
+
+                    <img src="img/logo_white.png" class="project__img" alt="">
                 </div>
-                <div class="p-4 lg:w-1/2">
-                  <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="img\HEMANT.png">
-                    <div class="flex-grow sm:pl-8">
-                      <h2 class="title-font font-medium text-lg text-gray-900">Hemant Kumar</h2>
-                      <h3 class="text-gray-500 mb-3">The Ace Of Diamonds</h3>
-                      <p class="mb-4">####</p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500 team__icon"href="https://www.linkedin.com/in/hkrobotics/" target="__blank">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-                        <a class="ml-2 text-gray-500 team__icon" href="https://github.com/hkrobotics" target="__blank">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-                        <a class="ml-2 text-gray-500 team__icon" href="https://www.instagram.com/hkrobotics/" target="__blank">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="p-4 lg:w-1/2">
-                  <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="img\ayan.jpg">
-                    <div class="flex-grow sm:pl-8">
-                      <h2 class="title-font font-medium text-lg text-gray-900">Ayan Shrivastava</h2>
-                      <h3 class="text-gray-500 mb-3">The Ace Of Hearts</h3>
-                      <p class="mb-4">####</p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500 team__icon" href="https://www.linkedin.com/in/ayan-shrivastava/" target="__blank">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-                        <a class="ml-2 text-gray-500 team__icon" href="https://github.com/pyANSH" target="__blank">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-                        <a class="ml-2 text-gray-500 team__icon"href="https://www.instagram.com/error__.423/" target="__blank">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="p-4 lg:w-1/2">
-                  <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                    <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="img\anmol-e.png">
-                    <div class="flex-grow sm:pl-8">
-                      <h2 class="title-font font-medium text-lg text-gray-900">Anmol Bajpai</h2>
-                      <h3 class="text-gray-500 mb-3">The Ace Of Spades</h3>
-                      <p class="mb-4">####</p>
-                      <span class="inline-flex">
-                        <a class="text-gray-500 team__icon" href="https://www.linkedin.com/in/anmol-bajpai-905767187/" target="__blank">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-                        <a class="ml-2 text-gray-500 team__icon" href="https://github.com/alfaPegasis" target="__blank">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-                        <a class="ml-2 text-gray-500 team__icon" href="https://www.instagram.com/anmol.qwe/" target="__blank">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </section>    
-        <!--==================== CONTACT US ====================-->
+
+        </section>
+
+
+
         <section class="contact section" id="contact">
 
             <h2 class="section__title">Contact</h2>
@@ -434,11 +576,13 @@
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
-                            <input type="text" name="name" placeholder="Your Name" minlength="3" maxlength="50" class="contact__input" required="required">
+                            <input type="text" name="name" placeholder="Your Name" minlength="3" maxlength="50"
+                                class="contact__input" required="required">
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" name="email" placeholder="example@trf.com" class="contact__input" required="required">
+                            <input type="email" name="email" placeholder="example@trf.com" class="contact__input"
+                                required="required">
                         </div>
                     </div>
                     <div class="contact__content">
@@ -477,23 +621,22 @@
         <div class="footer__bg">
             <div class="footer__container container grid">
                 <div>
-                    <h1 class="footer__title"><img class="footer_image" src="img\footer_logo.png" alt="TRF"></h1>
-                    <!-- <span class="footer__subtitle">Machine Learning</span> -->
+                    <img src="img/footer_logo.png" alt="">
                 </div>
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#about" class="footer__link">Team</a>
+                        <a href="#about" class="footer__link">About</a>
                     </li>
                     <li>
                         <a href="#portfolio" class="footer__link">Projects</a>
                     </li>
                     <li>
-                        <a href="#contact" class="footer__link">Contact</a>
+                        <a href="#contact" class="footer__link">Contactme</a>
                     </li>
                 </ul>
                 <div class="footer__socials">
-                    <a href="https://www.linkedin.com/company/73860221/" class="footer__link" target="_blank">
+                    <a href="https://www.facebook.com/anmol.qwe" class="footer__link" target="_blank">
                         <i class="uil uil-facebook-f footer__social__link"></i>
 
                     </a>
@@ -501,14 +644,14 @@
                         class="footer__link footer__social__link" target="_blank">
                         <i class="uil uil-instagram"></i>
                     </a>
-                    <a href="https://twitter.com/royalflushTRF" class="footer__link footer__social__link"
+                    <a href="https://mobile.twitter.com/anmol_qwe" class="footer__link footer__social__link"
                         target="_blank">
                         <i class="uil uil-twitter-alt"></i>
                     </a>
 
                 </div>
             </div>
-            <p class="footer__copy">Made With Love </p>
+            <p class="footer__copy">&#169; Anmol. All right reserved</p>
         </div>
     </footer>
 
@@ -516,43 +659,24 @@
     <a href="#" class="scrollup" id="scroll-up">
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
-    <!--========================== TYPED JS ===============-->
-    <script>
-        var typed = new Typed('.type', {
-            strings: ['Web Design', 'Machine Learning', 'Data Science', 'Full Stack'],
-            typeSpeed: 50,
-            backSpeed: 50,
-            loop: true,
-            cursorChar: '_'
-        });
-    </script>
 
     <!--==================== SWIPER JS ====================-->
     <script src="JS/swiper-bundle.min.js"></script>
-    <!-- jquery -->
-
+    <!--==================== TYPED JS =====================-->
+    <script src="JS/type.js"></script>
+    <script>
+        var typed = new Typed('.type', {
+            strings: ['Web Design', 'Machine Learning', 'Data Science', 'Full Stack'],
+            typeSpeed: 70,
+            backSpeed: 50,
+            startDelay: 0,
+            backDelay: 2000,
+            loop: true,
+            showCursor: false
+        });
+    </script>
     <!--==================== MAIN JS ====================-->
     <script src="JS/main.js"></script>
-
-    <!-- ==================Bootstrap============  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-
-
-    <script type="text/javascript" src="JS/vanilla-tilt.js"></script>
-    <script type="text/javascript">
-        VanillaTilt.init(document.querySelector(".logo_img"), {
-            max: 25,
-            speed: 400
-        });
-
-        //It also supports NodeList
-        VanillaTilt.init(document.querySelectorAll(".logo_img"));
-    </script>
-
-    <script src="JS/timeline.js"></script>
 
 
     <!-- ------------------------------------------------------------------------------------------------------ -->
@@ -588,6 +712,7 @@
           document.getElementById("recaptcha_form").submit();
         }
       </script>
+
 
 </body>
 
