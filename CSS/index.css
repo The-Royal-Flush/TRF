@@ -733,6 +733,10 @@ ul li a:hover::after {
 .team__icon{
   color: var(--first-color);
 }
+.team__main{
+  margin: 0 15rem;
+}
+
 /* Active Modal */
 
 /*==================== PORTFOLIO ====================*/
@@ -854,6 +858,7 @@ ul li a:hover::after {
 }
 .submit__button{
   border: none ;
+  display: block;
 }
 /*==================== FOOTER ====================*/
 .footer {
@@ -947,7 +952,7 @@ ul li a:hover::after {
 }
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (min-width: 350px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -973,6 +978,10 @@ ul li a:hover::after {
   }
   .project__img {
     width: 200px;
+  }
+  .team__main{
+    margin-left: 5rem;
+    margin-right: 3rem;
   }
 }
 
@@ -1000,6 +1009,10 @@ ul li a:hover::after {
     display: grid;
     grid-template-columns: 0.6fr;
     justify-content: center;
+  }
+  .team__main{
+    margin-left: 11rem;
+    margin-right: 3rem;
   }
 }
 
@@ -1123,6 +1136,9 @@ ul li a:hover::after {
   .footer__copy{
       margin-top: 2.5rem;
   }
+  .team__main{
+    margin: 0 10rem;
+  }
 }
 
 /* For large devices */
@@ -1162,5 +1178,8 @@ ul li a:hover::after {
     }
     .footer__social__link{
         margin-right: 1rem;
+    }
+    .team__main{
+      margin: 0 5rem;
     }
 }
