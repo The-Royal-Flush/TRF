@@ -1001,7 +1001,7 @@ span.typed-cursor {
   .header,
   .main,
   .footer__container {
-    padding: 0;
+    padding: 1.5rem;
   }
   .home__title {
     font-size: 2.9rem;
