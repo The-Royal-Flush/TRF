@@ -1124,4 +1124,7 @@ span.typed-cursor {
     flex-wrap: wrap;
     margin: 0;
   }
+  .overlay{
+    height: 85%;
+  }
 }
