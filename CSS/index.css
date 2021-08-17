@@ -1043,6 +1043,7 @@ span.typed-cursor {
 }
 .cards{
   display: flex;
+  margin: 0 15rem;
 }
 .card{
   margin: 2rem;
@@ -1079,5 +1080,6 @@ span.typed-cursor {
 @media screen and (max-width:768px) {
   .cards{
     flex-wrap: wrap;
+    margin: 0;
   }
 }
