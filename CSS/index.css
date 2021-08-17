@@ -781,7 +781,7 @@ span.typed-cursor {
   align-items: center;
 }
 .footer__bg {
-  background-color: var(--first-color-second);
+  background-color: var(--first-color);
   padding: 2rem 0 3rem;
 }
 .footer__title {
@@ -1085,7 +1085,7 @@ span.typed-cursor {
 }
 .cards{
   display: flex;
-  margin: 0 12rem;
+  margin: 0 11rem;
 }
 .card{
   margin: 2rem;
@@ -1098,7 +1098,7 @@ span.typed-cursor {
   left: 0;
   right: 0;
   border-radius: 50%;
-  height: 77%;
+  height: 75%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
