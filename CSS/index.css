@@ -103,13 +103,13 @@ body.dark-theme {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #2d6ae3;
+  background-color: #fff;
   z-index: 999999;
   }
   .spinner {
     width: 40px;
     height: 40px;
-    background-color: #fff;
+    background-color: #2d6ae3;
     position: absolute;
     top: 48%;
     left: 48%;
