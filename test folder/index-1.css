@@ -1,142 +1,84 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
-
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: poppins;
-
+#blogs{
+    margin-top: 4rem;
 }
-
-.container-blog{
-
+.blog-cards{
     display: flex;
-
-    /* flex-direction: auto; */
-    
+    margin: 5rem 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    /* margin: 5rem; */
-    background-color: #ffffff;
-    border-radius: 16px;
- 
-
+    align-items: center;
 }
-
-
-
-.third-card{
-    /* margin: 5rem; */
-    display: flex;
-    flex-direction: column;
-    
-}
-
-
-.name{
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    color: grey;
-    /* font-weight: bold; */
-}
-.img-blog{
-    width: 324px;
-    border-radius: 16px;
-    display: flex;
-    margin: auto;
-}
-
-.forth-card{
-    margin: 1.3rem;
-    padding: 9.5rem 1.5rem;
-    width: 25%;
-    height: auto;
-    /* background-color: white; */
-    border-radius: 16px;
-    /* box-shadow: 5px 10px #e9eaf0; */
-    background: url(../img/zombie-blog.jpeg);
-    background-size: 150%;
-    background-repeat: no-repeat;
-    
-}
-.second-card{
-    margin: 1.3rem;
-    padding: 9.5rem 1.5rem;
-    width: 25%;
-    height: auto;
-    /* background-color: white; */
-    border-radius: 16px;
-    /* box-shadow: 5px 10px #e9eaf0; */
-    background: url(../img/hand-tracking-2.jpeg);
-    background-size: 130%;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    
-    
-}
-.first-card{
-    margin: 1.3rem;
-    padding: 9.5rem 1.5rem;
-    width: 25%;
-    height: auto;
-    /* background-color: white; */
-    border-radius: 16px;
-    /* box-shadow: 5px 10px #e9eaf0; */
+.first-card {
     background: url(../img/hand-tracking-1.jpeg);
-    background-size: 110%;
+    background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */ 
-}
-.forth-card:hover{
-
-    background-size: 170%;
-    transition: 4s  ;
-
+    background-size: 100%;
+    border-radius: 16px;
+    height: 35rem;
+    width: 400px;
+    padding: 33px;
+    margin: 2rem;
+   
 }
 .first-card:hover{
-
-    background-size: 130%;
-    transition: 4s  ;
-
+    background-size:120% ;
+    transition: 3s;
+}
+.card-positions{
+    position: relative;
+    top: 53%;
+}
+.blog-name{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: lighter;
+}
+.blog-content{
+    padding: 20px 0 20px 0;
+    color: white;
+    text-align: justify;
+}
+.blog-content h4{
+    color: rgb(230, 219, 219);
+}
+.second-card{
+    background: url(../img/hand-tracking-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 16px;
+    height: 35rem;
+    width: 400px;
+    padding: 33px;
+    margin: 2rem;
+   
 }
 .second-card:hover{
-
-    background-size: 140%;
-    transition: 4s;
-
+    background-size:120% ;
+    transition: 3s;
 }
-
-.button{
-    display: inline-block;
-    background-color: hsl(215, 99%, 50%);
-    text-decoration: none;
-    color: #fff;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    
+.third-card{
+    background: url(../img/zombie-blog.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 16px;
+    height: 35rem;
+    width: 400px;
+    padding: 33px;
+    margin: 2rem;
 }
-.custom-color h4,p{
-    color: white;
+.third-card:hover{
+    background-size:120% ;
+    transition: 3s;
 }
-.forth-card-content{
-    position: relative;
-    top: 45%;
-}
-
-@media screen and (max-width:1321px) {
-    .container{
-       flex-direction: column;
-       align-items: center;
-        
+@media screen and (max-width:555px) {
+    .card-positions{
+        top: 15%;
     }
-    .forth-card{
-        margin: 1.5rem 0;
-
-
-
+    .blog-cards{
+        margin: 1rem 0;
     }
 }
