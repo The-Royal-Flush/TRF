@@ -1,5 +1,6 @@
 #blogs{
-    margin-top: 4rem;
+    padding-top: 5rem;
+    
 }
 .blog-cards{
     display: flex;
@@ -16,7 +17,7 @@
     background-size: 100%;
     border-radius: 16px;
     height: 35rem;
-    width: 400px;
+    width: 370px;
     padding: 33px;
     margin: 2rem;
    
@@ -27,7 +28,7 @@
 }
 .card-positions{
     position: relative;
-    top: 53%;
+    top: 50%;
 }
 .blog-name{
     display: flex;
@@ -50,7 +51,7 @@
     background-size: 100%;
     border-radius: 16px;
     height: 35rem;
-    width: 400px;
+    width: 370px;
     padding: 33px;
     margin: 2rem;
    
@@ -66,7 +67,7 @@
     background-size: 100%;
     border-radius: 16px;
     height: 35rem;
-    width: 400px;
+    width: 370px;
     padding: 33px;
     margin: 2rem;
 }
@@ -75,9 +76,6 @@
     transition: 3s;
 }
 @media screen and (max-width:555px) {
-    .card-positions{
-        top: 15%;
-    }
     .blog-cards{
         margin: 1rem 0;
     }
