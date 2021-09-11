@@ -12,15 +12,15 @@
 
 }
 
-.container{
+.container-blog{
 
     display: flex;
 
     /* flex-direction: auto; */
     
     justify-content: center;
-    margin: 5rem;
-    background-color: #eaeef6;
+    /* margin: 5rem; */
+    background-color: #ffffff;
     border-radius: 16px;
  
 
@@ -35,14 +35,6 @@
     
 }
 
-.one-card,.two-card,.three-card{
-    width: 35vh;
-    margin: 1rem;
-    padding: 10px;
-    background-color: white;
-    border-radius: 16px;
-    box-shadow: 5px 10px #e9eaf0;
-}
 
 .name{
     display: flex;
@@ -65,7 +57,7 @@
     height: auto;
     /* background-color: white; */
     border-radius: 16px;
-    box-shadow: 5px 10px #e9eaf0;
+    /* box-shadow: 5px 10px #e9eaf0; */
     background: url(../img/zombie-blog.jpeg);
     background-size: 150%;
     background-repeat: no-repeat;
@@ -78,9 +70,9 @@
     height: auto;
     /* background-color: white; */
     border-radius: 16px;
-    box-shadow: 5px 10px #e9eaf0;
+    /* box-shadow: 5px 10px #e9eaf0; */
     background: url(../img/hand-tracking-2.jpeg);
-    background-size: 100%;
+    background-size: 130%;
     background-repeat: no-repeat;
     /* background-size: cover; */
     
@@ -93,9 +85,9 @@
     height: auto;
     /* background-color: white; */
     border-radius: 16px;
-    box-shadow: 5px 10px #e9eaf0;
+    /* box-shadow: 5px 10px #e9eaf0; */
     background: url(../img/hand-tracking-1.jpeg);
-    background-size: 100%;
+    background-size: 110%;
     background-repeat: no-repeat;
     /* background-size: cover; */ 
 }
@@ -107,13 +99,13 @@
 }
 .first-card:hover{
 
-    background-size: 110%;
+    background-size: 130%;
     transition: 4s  ;
 
 }
 .second-card:hover{
 
-    background-size: 130%;
+    background-size: 140%;
     transition: 4s;
 
 }
@@ -127,12 +119,12 @@
     border-radius: 0.5rem;
     
 }
-.custom-color{
+.custom-color h4,p{
     color: white;
 }
 .forth-card-content{
     position: relative;
-    top: 49%;
+    top: 45%;
 }
 
 @media screen and (max-width:1321px) {
