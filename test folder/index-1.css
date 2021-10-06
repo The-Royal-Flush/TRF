@@ -20,6 +20,7 @@
     width: 370px;
     padding: 33px;
     margin: 2rem;
+    
    
 }
 .first-card:hover{
@@ -42,7 +43,7 @@
     text-align: justify;
 }
 .blog-content h4{
-    color: rgb(230, 219, 219);
+    color: white;
 }
 .second-card{
     background: url(../img/hand-tracking-2.jpeg);
@@ -61,10 +62,10 @@
     transition: 3s;
 }
 .third-card{
-    background: url(../img/zombie-blog.jpeg);
-    background-position: center;
+    background: url(https://images.unsplash.com/photo-1553197661-485e7380b810?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8em9tYmllfGVufDB8MXwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    /* background-position: center; */
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:100%;
     border-radius: 16px;
     height: 35rem;
     width: 370px;
@@ -72,7 +73,7 @@
     margin: 2rem;
 }
 .third-card:hover{
-    background-size:120% ;
+    background-size:110%;
     transition: 3s;
 }
 @media screen and (max-width:555px) {

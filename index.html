@@ -26,12 +26,17 @@
     <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
 
     <!--==================== CSS ====================-->
+    <!--==================== PointerJS ====================-->
+    <link href="css/pointerjs.css" rel="stylesheet">
     <link rel="stylesheet" href="test folder/index-1.css">
     <link rel="stylesheet" href="CSS/index.css">
 
 
     <!--==================== JQUERY ====================-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    
+
 
     <!--==================== PAGECLIP ====================-->
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
@@ -72,13 +77,19 @@
                         </a>
                     </li>
                     <li class="nav__item">
+                        <a href="#services" class="nav__link active-link">
+                            <i class="uil uil-house-user nav__icon"></i>
+                            <span class="menu__item-name"> Services</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
                         <a href="#qualification" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> Timeline
+                            <i class="uil uil-scenery nav__icon"></i> Timeline
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-file-alt nav__icon"></i>Projects
+                            <i class="uil uil-notebooks nav__icon"></i>Projects
                         </a>
                     </li>
                     <li class="nav__item">
@@ -88,7 +99,7 @@
                     </li>
                     <li class="nav__item">
                         <a href="#team" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i> Team
+                            <i class="uil uil-users-alt nav__icon"></i>Team
                         </a>
                     </li>
                     <li class="nav__item">
@@ -141,7 +152,8 @@
                         </h2>
                         <h1 class=""> <span class="home__title"> Hi, We are the </span><span class="home__title"> Royal
                                 Flush</span></h1>
-                        <h3 class="home__subtitle">Come create, learn and grow with us</h3>
+                        <h3 class="home__subtitle">We turn trends into digital designs. Come create, learn and grow with
+                            us.</h3>
 
                         <a href="#contact" class="button button--flex">
                             Get started <i class="uil uil-message button__icon"></i>
@@ -149,7 +161,7 @@
                     </div>
                 </div>
                 <div class="home__scroll">
-                    <a href="#qualification" class="home__scroll-button button--flex">
+                    <a href="#services" class="home__scroll-button button--flex">
                         <i class="uil uil-mouse-alt home__scroll-mouse"></i>
                         <span class="home__scroll-name">Scroll down</span>
                         <i class="uil uil-arrow-down home__scroll-arow"></i>
@@ -158,7 +170,32 @@
             </div>
         </section>
 
+        <!-- =====================================================SERVICES===================================================================== -->
+        <section class="services" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">Who do we work with?</span>
+            <div class="service-cards">
+                <div class="scard">
+                    <img src="img\At_the_office-amico.svg" alt="#" class="service-card-img pad">
+                    <h3 class="pad">College Students</h3>
+                    <p class="pad">Create best portfolio designs and stand out at the top.</p>
 
+                </div>
+                <div class="scard">
+                    <img src="img\At_the_office-bro.svg" alt="#" class="service-card-img pad">
+                    <h3 class="pad">Small businesses</h3>
+                    <p class="pad">Bring your business online. We'll do it for you.</p>
+
+                </div>
+                <div class="scard">
+                    <img class="pad" src="img\At_the_office-amico.svg" alt="">
+                    <h3 class="pad">Entrepreneurs</h3>
+                    <p class="pad">Rebuild anything you imagine. We bring your ideas to life.</p>
+
+                </div>
+            </div>
+        </section>
+        <!-- =====================================================SERVICES===================================================================== -->
 
         <!--==================== QUALIFICATION ====================-->
         <section class="qualification section" id="qualification">
@@ -321,7 +358,7 @@
         </section>
 
         <!-- =============================================blog======================================================== -->
-        <h2 id="blogs"class="section__title">Our Blogs</h2>
+        <h2 id="blogs" class="section__title">Our Blogs</h2>
         <span class="section__subtitle">Checkout our most recent blogs</span>
         <div class="blog-cards">
 
@@ -332,12 +369,11 @@
                         <p>June 15</p>
                     </div>
                     <div class="blog-content">
-                        <h4 style="padding-bottom: 10px;">Build a Palm Detection and Hand Tracking Model with Python. (Part 1)</h4>
-                        <p>How to make a model that detects and tracks your hand using OpenCV, Jupyter notebook, and
-                            MediaPipe?
-                        </p>
+                        <h4 style="padding-bottom: 10px;">Build a Palm Detection and Hand Tracking Model with Python.
+                            (Part 1)</h4>
+
                     </div>
-                    <a href="#" rel="noreferrer" target="_blank"
+                    <a href="https://anmolbajpai2001.medium.com/?p=5e96ee15919f" rel="noreferrer" target="_blank"
                         class="button button--flex button--small portfolio__button">
                         Read more
                         <i class="uil uil-arrow-right button__icon"></i>
@@ -351,12 +387,12 @@
                         <p>June 16</p>
                     </div>
                     <div class="blog-content">
-                        <h4 style="padding-bottom: 10px;">Build a Palm Detection and Hand Tracking Model with Python. (Part 2)</h4>
-                        <p>How to make a model that detects and tracks your hand using OpenCV, Jupyter notebook, and
-                            MediaPipe?
-                        </p>
+                        <h4 style="padding-bottom: 10px;">Build a Palm Detection and Hand Tracking Model with Python.
+                            (Part 2)</h4>
+
                     </div>
-                    <a href="#" rel="noreferrer" target="_blank" class="button button--flex button--small portfolio__button">
+                    <a href="https://anmolbajpai2001.medium.com/?p=1bbe10a81451" rel="noreferrer" target="_blank"
+                        class="button button--flex button--small portfolio__button">
                         Read more
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
@@ -366,16 +402,13 @@
                 <div class="card-positions">
                     <div class="blog-name">
                         <p>Prantosh Verma</p>
-                        <p>Coming Soon</p>
+                        <p>Sept 28</p>
                     </div>
                     <div class="blog-content">
-                        <h4 style="padding-bottom: 10px;">Build a Palm Detection and Hand Tracking Model with Python. (Part 1)</h4>
-                        <p>How to make a model that detects and tracks your hand using OpenCV, Jupyter notebook, and
-                            MediaPipe?
-                        </p>
+                        <h4 style="padding-bottom: 10px;">The Zombie Apocalypse</h4>
                     </div>
-                    <a href="#" rel="noreferrer" target="_blank"
-                        class="button button--flex button--small portfolio__button">
+                    <a href="https://medium.com/@prantoshv/the-zombie-apocalypse-7f71e2c8b5b4" rel="noreferrer"
+                        target="_blank" class="button button--flex button--small portfolio__button">
                         Read more
                         <i class="uil uil-arrow-right button__icon"></i>
                     </a>
@@ -383,15 +416,6 @@
             </div>
 
         </div>
-
-
-
-
-        
-
-
-
-
         <!-- ===========================TEAM============================ -->
 
         <section class="team section" id="team">
@@ -459,9 +483,9 @@
                 <div class="project__container container grid">
                     <div class="project__data">
                         <h2 class="project__title">You have a new project</h2>
-                        <p class="project__description">Contact me now and get a 30% discount on your new project.</p>
+                        <p class="project__description">Contact us now and get a 30% discount on your new project.</p>
                         <a href="#contact" class="button button--flex button--white">
-                            Contact Me
+                            Contact us
                             <i class="uil uil-message project__icon button__icon"></i>
                         </a>
                     </div>
@@ -482,11 +506,12 @@
             <div class="contact__container container grid">
                 <div>
                     <div class="contact__information">
-                        <i class="uil uil-phone contact__icon"></i>
+                        <i class="uil uil-telegram-alt contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Text</h3>
-                            <span class="contact__subtitle">+91 999-777-666</span>
+                            <h3 class="contact__title">Telegram</h3>
+                            <span class="contact__subtitle"><a style="color:#9fa5ad;"
+                                    href="https://t.me/theroyalflush">@theroyalflush</a></span>
                         </div>
                     </div>
                     <div class="contact__information">
@@ -494,7 +519,8 @@
 
                         <div>
                             <h3 class="contact__title email">Email</h3>
-                            <span class="contact__subtitle">workfortrf@gmail.com</span>
+                            <span class="contact__subtitle"><a style="color:#9fa5ad;"
+                                    href="mailto:workfortrf@gmail.com">workfortrf@gmail.com</a></span>
                         </div>
                     </div>
                     <div class="contact__information">
@@ -584,7 +610,7 @@
 
                 </div>
             </div>
-            <p class="footer__copy">&#169; The Royal Flush. All right reserved</p>
+            <p class="footer__copy">&#169; The Royal Flush. All rights reserved</p>
         </div>
     </footer>
 
@@ -631,7 +657,15 @@
             });
         }
     </script>
+    <script src="js/pointer.js"></script>
+    <script>
+        init_pointer({
+            pointerColor: "#fff",
+            ringSize: 15,
+            ringClickSize: 10
+        })
 
+    </script>
     <!--==================== PAGECLIP ====================-->
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
