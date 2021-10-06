@@ -811,6 +811,7 @@ span.typed-cursor {
   padding: 0.25rem 0.5rem 0.5rem 0;
 }
 .submit__button {
+  width:150px;
   border: none;
 }
 /*==================== FOOTER ====================*/
