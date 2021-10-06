@@ -1170,3 +1170,48 @@ span.typed-cursor {
     height: 85%;
   }
 }
+
+
+
+.showcase{
+  /* height: 100vh; */
+  margin-top:5rem ;
+}
+.showcase__body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+.showcase__card{
+  width: 80%;
+  margin: 5rem auto;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background: url(../img/spring_field.png);
+  border-radius: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.showcase__card2{
+  background: url(../img/slance.png);
+}
+.showcase__content{
+  max-width: 55%;
+  margin-left: 3rem;
+}
+.showcase__button ul{
+  display: flex;
+  margin-top: 2rem;
+}
+.showcase__button ul li{
+  margin-right:1rem;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  color:black;
+}
