@@ -1190,6 +1190,7 @@ span.typed-cursor {
   display: flex;
   flex-direction: column;
   background: url(../img/spring_field.png);
+  background: url(../img/springfield_beta.jpg);
   border-radius: 8px;
   align-items: flex-start;
   justify-content: center;
@@ -1213,10 +1214,11 @@ span.typed-cursor {
   border-radius: 8px;
   align-items: flex-start;
   justify-content: center;
-  background-size: 100%;
+  background-size: 114%;
   transition: 2s;
   background-repeat: no-repeat;
   background-position: center;
+  /* background-size: cover; */
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transition-delay: 5s ;
   transition: 0s background;
@@ -1241,7 +1243,8 @@ span.typed-cursor {
   transition: 3s;
 }
 .showcase__card2:hover{
-  background-size: 110%;
+
+  background-size: 124%;
   transition: 3s;
 }
 
@@ -1254,5 +1257,12 @@ span.typed-cursor {
   }
   .showcase__card2{
     background-size:cover;
+  }
+
+  .showcase__card:hover{
+    background-size: cover;
+  }
+  .showcase__card2:hover{
+    background-size: cover;
   }
 }
