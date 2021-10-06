@@ -1170,3 +1170,89 @@ span.typed-cursor {
     height: 85%;
   }
 }
+
+
+
+.showcase{
+  /* height: 100vh; */
+  margin-top:5rem ;
+}
+.showcase__body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+.showcase__card{
+  width: 80%;
+  margin: 5rem auto;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background: url(../img/spring_field.png);
+  border-radius: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  background-size: 100%;
+  transition: 2s;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition-delay: 5s ;
+  transition: 0s background;
+}
+
+.showcase__card2{
+  background: url(../img/slance.png);
+  width: 80%;
+  margin: 5rem auto;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  /* background: url(../img/spring_field.png); */
+  border-radius: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  background-size: 100%;
+  transition: 2s;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition-delay: 5s ;
+  transition: 0s background;
+}
+.showcase__content{
+  max-width: 55%;
+  margin-left: 3rem;
+}
+.showcase__button ul{
+  display: flex;
+  margin-top: 2rem;
+}
+.showcase__button ul li{
+  margin-right:1rem;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  color:black;
+}
+.showcase__card:hover{
+  background-size: 110%;
+  transition: 3s;
+}
+.showcase__card2:hover{
+  background-size: 110%;
+  transition: 3s;
+}
+
+@media screen and (max-width:1342px) {
+  .showcase__card{
+    background-size:cover;
+  
+    
+
+  }
+  .showcase__card2{
+    background-size:cover;
+  }
+}
