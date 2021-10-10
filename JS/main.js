@@ -67,8 +67,17 @@ let swiper = new Swiper('.portfolio__container', {
       el: '.swiper-pagination',
       clickable:true
     },
+    autoplay: {
+        delay:1500,
+    },
    
   });
+
+  $(".portfolio__container").hover(function() {
+    (this).swiper.autoplay.stop();
+}, function() {
+    (this).swiper.autoplay.start();
+});
 
 /*==================== TESTIMONIAL ====================*/
 
