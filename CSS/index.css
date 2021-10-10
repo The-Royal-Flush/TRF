@@ -1131,6 +1131,7 @@ span.typed-cursor {
 }
 .card{
   margin: 2rem;
+  cursor: pointer;
   position: relative;
 }
 .overlay {
@@ -1171,7 +1172,7 @@ span.typed-cursor {
   }
 }
 
-
+/* ---------------------------Showcase--------------------------------  */
 
 .showcase{
   /* height: 100vh; */
