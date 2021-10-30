@@ -1152,28 +1152,6 @@ span.typed-cursor {
   opacity: 1;
 }
 
-.text {
-  color: white;
-  width: 20%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-@media screen and (max-width:768px) {
-  .cards{
-    flex-wrap: wrap;
-    margin: 0;
-  }
-  .overlay{
-    height: 85%;
-  }
-}
-
-/* ---------------------------Showcase--------------------------------  */
-
 .showcase{
   /* height: 100vh; */
   margin-top:5rem ;
@@ -1248,6 +1226,28 @@ span.typed-cursor {
   background-size: 124%;
   transition: 3s;
 }
+.text {
+  color: white;
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width:768px) {
+  .cards{
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .overlay{
+    height: 85%;
+  }
+}
+
+/* ---------------------------Showcase--------------------------------  */
+
 
 @media screen and (max-width:1342px) {
   .showcase__card{
