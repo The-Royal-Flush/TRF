@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: rgb(255, 255, 255);
+    --second-color: #fff;
+    --third-color: #000;
+    --fourth-color: #fff;
+}
+body{
+    background: var(--main-color);
+}
+a{
+    text-decoration: none;
+    color: var(--second-color);
+}
