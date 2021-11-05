@@ -1273,8 +1273,8 @@ span.typed-cursor {
   padding: 5rem;
 }
 .show__card-img img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
  
 }
 .show__vid{
