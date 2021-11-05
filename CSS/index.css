@@ -1245,6 +1245,22 @@ span.typed-cursor {
     height: 85%;
   }
 }
+.heros__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.show__card{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  padding: 5rem;
+}
+.show__card-img img{
+  width:100px;
+  height:100px;
+}
 
 /* ---------------------------Showcase--------------------------------  */
 
