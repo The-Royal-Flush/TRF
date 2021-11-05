@@ -1275,13 +1275,17 @@ span.typed-cursor {
 .show__card-img img {
   width: 100px;
   height: 100px;
+ 
+}
+.show__vid{
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
   -webkit-user-select: none;
   -o-user-select: none;
   user-select: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 8px;
 }
-
 /* ---------------------------Showcase--------------------------------  */
 
 @media screen and (max-width: 1342px) {
